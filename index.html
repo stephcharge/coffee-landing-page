@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic SC"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Darker Grotesque"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>"
+    />
+    <title>Caffeine Addicts</title>
+    <style>
+      body {
+        background-color: #1d1716;
+      }
+      h1 {
+          background-color: #402a23;
+          border-radius: 4px 4px 0px 0px;
+          color: #f3bc77;
+          font-family: 'Amatic SC';
+          font-size: 80px;
+          margin:0% 10%;
+          padding: 0px 20px;
+          text-align: center;
+      }
+
+      h2 {
+          background-color: #402a23;
+          border-radius: 0px 0px 4px 4px;
+          color: #a55233;
+          text-align: center;
+          font-size: 30px;
+          font-family: 'Darker Grotesque';
+          margin: 0% 10%;
+          padding: 0px 20px 10px 0px;
+      }
+      img {
+        border: 10px solid #402a23;
+        border-radius: 4px;
+        display:block;
+        margin: 0 auto;
+        width: 300px;
+      }
+      .heading {
+          background-color: #1d1716;
+          border-radius: 0px 0px 4px 4px;
+          color: #a55233;
+          font-family: 'Darker Grotesque';
+          font-size: 25px;
+          font-weight: bold;
+          margin-top: 10px;
+          padding: 0px 20px 10px 0px;
+          text-align: center;
+      }
+      .bean-description {
+          background-color: #402a23;
+          border-radius: 4px;
+          color: #f3bc77;
+          font-family: 'Darker Grotesque';
+          font-size: 20px;
+          margin: 0% 10%;
+          text-align: center;
+      }
+      .subscribe {
+        background: #f3bc77;
+        border: 1px solid #f3bc77;
+        border-radius: 30px;
+        box-shadow: #000000 0px 8px 8px 0;
+        color: #1d1716;
+        cursor: pointer;
+        display: block;
+        font-size: 16px;
+        margin: 20px auto;
+        line-height: 22px;
+        padding: 16px 24px;
+        transition: all 100ms ease;
+
+      }
+      .subscribe:hover {
+          background: #1d1716;
+          color: #f3bc77;
+          cursor: pointer;
+      }
+      .name {
+          color:#a55233;
+          font-family: 'Amatic SC';
+          font-size: 18px;
+          text-align: center;
+
+      }
+      .info-link {
+          color:#a55233;
+          text-decoration: none;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wake up and smell the coffee!</h1>
+    <h2>
+      Ever wondered where your favourite cup of delicious bean juice came from?
+    </h2>
+    <br />
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/601/original/coffee-beans.jpeg?1645336550"
+    />
+    <div class="heading">Arabica</div>
+    <div class="bean-description">
+      Arabica is the most common (and certainly most heavily marketed) type of
+      coffee in North America. That’s because it actually has a sweeter, more
+      delicate flavor and the coffee itself tends to be less acidic. Arabica
+      beans are farmed in areas with high elevations above sea level,
+      particularly those where rain is plentiful. <br />
+      <a href="https://en.wikipedia.org/wiki/Coffea_arabica" class="info-link"
+        >Learn more here</a
+      >
+    </div>
+    <div class="heading">Robusta</div>
+    <div class="bean-description">
+      When it comes to global production, Robusta coffee beans are second on the
+      list and the most popular in Europe, the Middle East and Africa. Its name
+      does this bean justice, as it is known for its strong and often harsh
+      flavor profile. Robusta coffees have extremely high levels of caffeine,
+      which makes the plant far more resilient than the Arabica species. That’s
+      because the caffeine acts as natural insect repellent, eliminating a major
+      threat to the tree. <br />
+      <a href="https://en.wikipedia.org/wiki/Coffea_canephora" class="info-link"
+        >Learn more here</a
+      >
+    </div>
+    <div class="heading">Liberica</div>
+    <div class="bean-description">
+      Liberica coffee beans are a rare treat. They’re grown in very specific
+      climates with production being far too scarce for farmers to scale their
+      operations to truly satisfy a global marketplace. Even still, the beans
+      are considered a pleasant surprise. Many who’ve tried the coffee liken the
+      aroma to fruit and flowers and describe the flavor as having a somewhat
+      “woody” taste. <br />
+      <a href="https://en.wikipedia.org/wiki/Coffea_liberica" class="info-link"
+        >Learn more here</a
+      >
+    </div>
+    <div class="heading">Excelsa</div>
+    <div class="bean-description">
+      Excelsa is technically a member of the Liberica family, but its species is
+      actually incredibly distinct. Like the Liberica coffee described above,
+      Excelsa is grown primarily in Southeast Asia and represents only a small
+      fraction of the world’s coffee production. Excelsa does boast a tart,
+      fruitier flavor and is known for showing attributes of both light and dark
+      roast coffees to create a unique profile that is frequently sought out by
+      coffee enthusiasts.
+    </div>
+    <br />
+    <button class="subscribe">Subscribe to our mailing list</button>
+    <br />
+    <div class="name">Coded by Stephanie Charge</div>
+    <br />
+    <br />
+
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        alert(
+          "Let us espress-o our thanks for joining our mailing list, " +
+            name +
+            "! We will be sending you a latte information shortly."
+        );
+      }
+
+      let subscribeButton = document.querySelector(".subscribe");
+      subscribeButton.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
